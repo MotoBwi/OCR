@@ -1,0 +1,4 @@
+curl -X POST \
+  http://localhost:5000/process \
+  -H 'X-API-KEY: your_api_key_1' \
+  -F 'file=@/path/to/your/file.pdf'
